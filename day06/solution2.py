@@ -2,8 +2,8 @@ with open("input.txt", "r") as f:
     line = f.readline().strip()
 
 population = {i: 0 for i in range(9)}
-for i in line.split(","):
-    population[int(i)] += 1
+for d in line.split(","):
+    population[int(d)] += 1
 for _ in range(256):
     num_new_fish = population[0]
     for i in range(8):
