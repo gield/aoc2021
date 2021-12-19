@@ -3,8 +3,8 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - python=3.10
   - flake8
   - mypy
   - numpy
   - pip
-  - python=3.10
